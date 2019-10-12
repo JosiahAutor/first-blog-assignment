@@ -110,8 +110,8 @@
   .card3 img {
     border-style: solid;
     border-color: black;
-    width: 35vmin;
-    height: 20vmin;
+    width: 18vmax;
+    height: 11vmax;
   }
   
   .card:hover, .card img:hover, .card2:hover,.card2 img:hover, .card3:hover, .card3 img:hover{
