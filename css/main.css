@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    color: white;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background: #2b2b2a;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: url(/img/headerpic.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    color: orange;
+    -webkit-text-stroke-color: lightgoldenrodyellow;
+    -webkit-text-stroke-width: 0.4px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: orange;
+    color: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color:#2b2b2a;
+    padding-left: 20px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .card img{
+      width: 67vmax;
+      height: 35vmax;
+      
+  }
+  /*about the site card*/
+  .card2 {
+    border-style: solid;
+    border-color: black;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .card2 img { 
+    border-style: solid;
+    border-color: black;
+    width: 22vmin;
+    height: 22vmin;
+  }
+  .card3 {
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  .card3 img {
+    border-style: solid;
+    border-color: black;
+    width: 35vmin;
+    height: 20vmin;
+  }
+  
+  .card:hover, .card img:hover, .card2:hover,.card2 img:hover, .card3:hover, .card3 img:hover{
+      border-color: orange;
+    
+  }
+  .card .link{
+      color: orange;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 1px;
+    text-align: center;
+    background: black;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    color: orange;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 767px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+    .card img{
+       width: 85vmin;
+       height: 45vmin;
+       
+    }
+    .card3 img {
+        width: 82vmin;
+        height: 47vmin;
+      }
+  }
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 530px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    .card img{
+        width: 85vmin;
+        height: 45vmin;
+        
+     }
+     .card2 img { 
+        width: 38vmin;
+        height: 38vmin;
+      }
+      .card3 img {
+        width: 65vmin;
+        height: 37vmin;
+      }
+    }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .header {
+        padding-left: 20px;
+    }
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    .card img{
+        width: 81vmin;
+        height: 45vmin;
+        
+     }
+  }
