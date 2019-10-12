@@ -1,0 +1,22 @@
+{
+  "name": "first-blog-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiahAutor/first-blog-assignment.git"
+  },
+  "author": "Josiah Autor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosiahAutor/first-blog-assignment/issues"
+  },
+  "homepage": "https://github.com/JosiahAutor/first-blog-assignment#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
