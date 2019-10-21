@@ -4,25 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anime Trending</title>
+    <title>Anime Charts</title>
     <link rel="Stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
     <div class="header">
-        <h1>ANIME TRENDING</h1>
-    </div>
-              
-    <div class="topnav">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <h1>ANIME CHARTS</h1>
     </div>
               
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
                 <h2>TOP ANIME OF THE WEEK</h2>
-                <h5>JUNE 30, 2019</h5>
+                <h5>OCTOBER 13, 2019</h5>
                     <img src="img/fireforce-0-1.jpg" alt="fire-force" width="1280" height="720" class="center">
                     <p>Enen no Shouboutai (Fire Force)</p>
                     <p>CHART MILESTONE: Fire Force makes history as it becomes the first ever short anime to top the charts</p>
@@ -30,7 +24,7 @@
 
             <div class="card">
                 <h2>TOP OPENING THEME OF THE WEEK</h2>
-                <h5>JUNE 30, 2019</h5>
+                <h5>OCTOBER 13, 2019</h5>
                 <img src="img/demonslayer-0-1.jpg" alt="fire-force" width="1280" height="720" class="center">
                         <p>Demon Slayer: Kimetsu no Yaiba Op - Gurenge by liSA</p>
                         <p>Singer LiSA's opening theme song "Gurenge" for the Demon Slayer: Kimetsu no Yaiba anime was certified platinum by the Japan Record Association on September 22. "Gurenge" (Red Lotus) has exceeded 300,000 downloads, the first track by a female artist to do so this year. </p>
@@ -41,27 +35,44 @@
             <div class="card2">
                 <h2>About the Site</h2>
                     <img src="img/logo.png" alt="anime-trending" width="260" height="260" class="center">
-                        <p>Your source for seasonal weekly anime charts, news, articles and more!</p>
+                        <p>Blog for seasonal weekly anime charts, news, articles and more!</p>
             </div>
             <div class="card3">
-                <h3>Popular Post</h3>
-                    <img src="img/bokuben-0-1.jpg" alt="bokuben" width="196" height="100" class="center">
-                    <img src="img/danmachi-0-1.jpg" alt="bokuben" width="196" height="100" class="center">
-                    <img src="img/senryu-0-1.jpg" alt="bokuben" width="196" height="100" class="center">
+                <h3>Favorite Images</h3>
+                <div class="container1"><img src="img/bokuben-0-1.jpg" alt="Bokuben" style="max-width:100%;cursor:pointer"
+                    onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="container1"><img src="img/danmachi-0-1.jpg" alt="Danmachi" style="max-width:100%;cursor:pointer"
+                    onclick="onClick(this)" class="modal-hover-opacity" >
+                </div>
+                <div class="container1"><img src="img/senryu-0-1.jpg" alt="Senryu" style="max-width:100%;cursor:pointer"
+                    onclick="onClick(this)" class="modal-hover-opacity" >
+                </div>
+                <div class="container1"><img src="img/senko-0-1.png" alt="Senko" style="max-width:100%;cursor:pointer"
+                    onclick="onClick(this)" class="modal-hover-opacity" >
+                </div>
+                <div class="container1"><img src="img/aot-0-1.jpg" alt="Aot" style="max-width:100%;cursor:pointer"
+                    onclick="onClick(this)" class="modal-hover-opacity" >
+                </div>
+                <div class="container1"><img src="img/aochan-0-1.jpg" alt="Aochan" style="max-width:100%;cursor:pointer"
+                    onclick="onClick(this)" class="modal-hover-opacity" >
+                </div>
+
+                <div id="modal01" class="modal" onclick="this.style.display='none'">
+                    <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="modal-content">
+                      <img id="img01" style="max-width:100%">
+                    </div>
+                </div>
             </div>
 
-            <div class="card">
-                <h3>Follow Us</h3>
-                <p><a href="*" class="link">Facebook</a></p>
-                <p><a href="*" class="link">Twitter</a></p>
-                <p><a href="*" class="link">Instagram</a></p>
-            </div>
+            
         </div>
     </div>
               
     <div class="footer">
         <h2 style="margin-bottom: 0px;">Copyright Josiah Autor © 2019 | All Rights Reserved</h2>
     </div>
-    
 </body>
+<script src="js/main.js"></script>
 </html>
