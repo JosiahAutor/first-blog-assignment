@@ -26,6 +26,11 @@
     -webkit-text-stroke-width: 0.4px;
   }
   
+  .header h1 a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
@@ -47,12 +52,26 @@
     background-color: orange;
     color: white;
   }
+
+  h2 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  h2 a:hover{
+    color: orange;
+  }
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {   
     float: left;
     width: 75%;
+  }
+
+  .centercolumn{
+    width: 100%;
+    vertical-align: 50%;
   }
   
   /* Right column */
@@ -81,7 +100,7 @@
   }
   .card img{
       width: 67vmax;
-      height: 35vmax;
+      height: 37vmax;
       
   }
   /*about the site card*/
@@ -113,7 +132,7 @@
     
   }
   
-  .card2:hover,.card2 img:hover, .card3:hover, .card3 img:hover {
+  .card:hover,.card2:hover,.card2 img:hover, .card3:hover, .card3 img:hover {
       border-color: orange;
     
   }
