@@ -54,6 +54,11 @@
     float: left;
     width: 75%;
   }
+
+  .centercolumn{
+    width: 100%;
+    vertical-align: 50%;
+  }
   
   /* Right column */
   .rightcolumn {
@@ -81,7 +86,7 @@
   }
   .card img{
       width: 67vmax;
-      height: 35vmax;
+      height: 37vmax;
       
   }
   /*about the site card*/
