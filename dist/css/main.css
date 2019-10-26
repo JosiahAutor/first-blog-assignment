@@ -26,6 +26,11 @@
     -webkit-text-stroke-width: 0.4px;
   }
   
+  .header h1 a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
@@ -46,6 +51,15 @@
   .topnav a:hover {
     background-color: orange;
     color: white;
+  }
+
+  h2 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  h2 a:hover{
+    color: orange;
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -118,7 +132,7 @@
     
   }
   
-  .card2:hover,.card2 img:hover, .card3:hover, .card3 img:hover {
+  .card:hover,.card2:hover,.card2 img:hover, .card3:hover, .card3 img:hover {
       border-color: orange;
     
   }
